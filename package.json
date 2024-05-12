@@ -1,0 +1,23 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "Realtime chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Uttara Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "redis": "^4.6.13",
+    "socket.io": "^4.7.5",
+    "socket.io-redis": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
